@@ -2,7 +2,7 @@ import React from 'react';
 import { Feather } from '@expo/vector-icons';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { View, Text, Image, TouchableOpacity, Linking } from 'react-native';
-import * as MailComposer from 'expo-mail-composer'; //coloca o * ele vai pegar todas as exportações que o arquivo faz e joga dentro de uma variavel. aqui como 'MailComposer'
+import * as MailComposer from 'expo-mail-composer';              //coloca o * ele vai pegar todas as exportações que o arquivo faz e joga dentro de uma variavel. aqui como 'MailComposer'
 
 
 import logoImg from '../../assets/logo.png'
